@@ -4,7 +4,9 @@ import joblib
 
 clf = joblib.load("model/student_model.pkl")
 
-st.title("Prediction of students' academic performance")
+st.text("Made by Silvia Donaire Serrano")
+
+st.title("Prediction of students academic performance")
 
 gender = st.selectbox("Gender: ", ["female", "male"])
 level_education = st.selectbox("Level of education: ", ["some college", "associate's degree", "some high school", 
