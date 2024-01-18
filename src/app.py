@@ -10,7 +10,7 @@ gender = st.selectbox("Gender: ", ["female", "male"])
 level_education = st.selectbox("Level of education: ", ["some college", "associate's degree", "some high school", 
                                                         "bachelor's degree", "master's degree", "high school"])
 
-prepatation_course = st.checkbox("Preparation course: ", value=False)
+prepatation_course = st.checkbox("Preparation course completed ", value=False)
 math_score = st.number_input("Math score: ", min_value=0, max_value=100)
 reading_score = st.number_input("Reading score: ", min_value=0, max_value=100)
 writing_score = st.number_input("Writing score: ", min_value=0, max_value=100)
